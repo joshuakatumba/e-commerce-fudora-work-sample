@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fudora Ecommerce - Support</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-white text-gray-900 selection:bg-purple-200 selection:text-purple-900">
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-transparent">
+    <div class="max-w-[1440px] mx-auto px-6 h-20 flex items-center justify-between">
+      <!-- Left: Wordmark -->
+      <div class="flex-shrink-0">
+        <a href="home.html" class="text-xl font-semibold tracking-tight text-black flex items-center gap-1">
+          Fudora
+          <span class="opacity-40">_</span>
+        </a>
+      </div>
+
+      <!-- Center: Links -->
+      <div class="hidden md:flex items-center gap-10">
+        <a href="home.html" class="text-base font-normal text-gray-600 hover:text-black transition-colors">
+          Home
+        </a>
+        <a href="shop.html" class="text-base font-normal text-gray-600 hover:text-black transition-colors">
+          Shop
+        </a>
+        <a href="collections.html" class="text-base font-normal text-gray-600 hover:text-black transition-colors">
+          Collections
+        </a>
+        <a href="blog.html" class="text-base font-normal text-gray-600 hover:text-black transition-colors">
+          Blog
+        </a>
+        <a href="support.html" class="text-base font-normal text-gray-600 hover:text-black transition-colors">
+          Support
+        </a>
+      </div>
+
+      <!-- Right: Icons -->
+      <div class="flex items-center gap-5">
+        <button class="text-gray-600 hover:text-black transition-colors">
+          <i data-lucide="search" class="w-5 h-5"></i>
+        </button>
+        
+        <div class="relative">
+          <button id="cart-toggle-btn" class="text-gray-600 hover:text-black transition-colors focus:outline-none">
+            <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+          </button>
+          <span id="cart-count-badge" class="absolute -top-1 -right-1.5 flex h-4 w-4 items-center justify-center rounded-full bg-purple-600 text-white text-[10px] font-medium transition-all scale-0">
+            0
+          </span>
+        </div>
+        <button id="mobile-menu-btn" class="md:hidden text-gray-600 hover:text-black transition-colors ml-2 focus:outline-none">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+  
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white/95 backdrop-blur-xl border-t border-gray-100 absolute top-full left-0 w-full shadow-lg origin-top">
+      <div class="px-6 py-6 flex flex-col gap-5">
+        <a href="home.html" class="text-lg font-medium text-gray-600 hover:text-black transition-colors">Home</a>
+        <a href="shop.html" class="text-lg font-medium text-gray-600 hover:text-black transition-colors">Shop</a>
+        <a href="collections.html" class="text-lg font-medium text-gray-600 hover:text-black transition-colors">Collections</a>
+        <a href="blog.html" class="text-lg font-medium text-gray-600 hover:text-black transition-colors">Blog</a>
+        <a href="support.html" class="text-lg font-medium text-gray-600 hover:text-black transition-colors">Support</a>
+      </div>
+    </div>
+  </nav>
+  <main class="max-w-[1440px] mx-auto px-4 sm:px-6 pb-20">
+    <div class="mt-24 sm:mt-32 max-w-4xl min-h-screen">
+      <h1 class="text-4xl md:text-5xl font-semibold tracking-tighter text-gray-900 leading-[1.05] mb-6">Support Center
+      </h1>
+      <p class="text-lg text-gray-500 font-normal leading-relaxed">
+        How can we help you today?
+      </p>
+    </div>
+
+    <div class="relative mt-24 sm:mt-32">
+      <!-- Decorative Background Glow -->
+      <div
+        class="absolute -inset-1 bg-gradient-to-r from-purple-500/20 via-indigo-500/20 to-pink-500/20 rounded-[44px] sm:rounded-[64px] blur-2xl opacity-40">
+      </div>
+
+      <!-- Main Footer Card -->
+      <footer
+        class="relative bg-[#0A0A0B] rounded-[40px] sm:rounded-[60px] overflow-hidden text-white shadow-2xl ring-1 ring-white/10 reveal-on-scroll">
+        <!-- Creative Shape Accents -->
+        <div class="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent">
+        </div>
+        <div
+          class="absolute -top-[300px] left-1/2 -translate-x-1/2 w-[600px] h-[500px] bg-purple-900/20 blur-[120px] rounded-full pointer-events-none mix-blend-screen">
+        </div>
+
+        <div class="px-8 py-16 sm:px-16 sm:py-24 relative z-10">
+          <div class="flex flex-col lg:flex-row justify-between gap-16 lg:gap-24">
+            <!-- Brand Column -->
+            <div class="max-w-sm">
+              <a href="home.html" class="text-2xl font-semibold tracking-tight text-white flex items-center gap-1 mb-6">
+                Fudora
+                <span class="text-gray-600">_</span>
+              </a>
+              <p class="text-gray-400 text-base leading-relaxed mb-8 font-normal">
+                Empowering your digital storefront with modern design, fluid
+                animations, and powerful features.
+              </p>
+              <div class="flex gap-4">
+                <a href="#"
+                  class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white/10 hover:scale-110 transition-all text-white border border-white/5">
+                  <i data-lucide="twitter" class="w-4 h-4"></i>
+                </a>
+                <a href="#"
+                  class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white/10 hover:scale-110 transition-all text-white border border-white/5">
+                  <i data-lucide="instagram" class="w-4 h-4"></i>
+                </a>
+                <a href="#"
+                  class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-white/10 hover:scale-110 transition-all text-white border border-white/5">
+                  <i data-lucide="linkedin" class="w-4 h-4"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Links Columns -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-10 flex-1">
+              <div class="">
+                <h4 class="font-medium text-white mb-6">Platform</h4>
+                <ul class="space-y-4 text-sm text-gray-400 font-normal">
+                  <li class="">
+                    <a href="#" class="hover:text-white transition-colors">
+                      Templates
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="hover:text-white transition-colors">
+                      Pricing
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="hover:text-white transition-colors">
+                      Features
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="hover:text-white transition-colors">
+                      Integrations
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4 class="font-medium text-white mb-6">Company</h4>
+                <ul class="space-y-4 text-sm text-gray-400 font-normal">
+                  <li>
+                    <a href="#" class="hover:text-white transition-colors">
+                      About Us
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="hover:text-white transition-colors">
+                      Careers
+                    </a>
+                  </li>
+                  <li>
+                    <a href="blog.html" class="hover:text-white transition-colors">
+                      Blog
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="hover:text-white transition-colors">
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-span-2 sm:col-span-1">
+                <h4 class="font-medium text-white mb-6">Stay updated</h4>
+                <div class="relative">
+                  <input type="email" placeholder="email@domain.com"
+                    class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder:text-gray-600 focus:outline-none focus:border-purple-500/50 transition-colors">
+                  <button
+                    class="absolute right-2 top-2 p-1.5 bg-white text-black rounded-lg hover:bg-gray-200 transition-colors shadow-lg">
+                    <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Bar -->
+          <div class="mt-20 pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-6">
+            <p class="text-sm text-gray-500 font-normal">
+              © 2024 Fudora Template. All rights reserved.
+            </p>
+            <div class="flex gap-8 text-sm text-gray-500 font-medium">
+              <a href="#" class="hover:text-white transition-colors">
+                Privacy Policy
+              </a>
+              <a href="#" class="hover:text-white transition-colors">
+                Terms of Service
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Large Typographic Background -->
+        <div
+          class="absolute -bottom-4 left-1/2 -translate-x-1/2 opacity-[0.02] select-none pointer-events-none whitespace-nowrap">
+          <span class="text-[12rem] sm:text-[18rem] font-bold tracking-tighter leading-none">
+            Commerce
+          </span>
+        </div>
+      </footer>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
